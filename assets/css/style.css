@@ -18,51 +18,201 @@
 .a1 {
     display: inline-block;
     width: 30%;
-    margin-top: 10px;
-    border: 2px solid #ccc;
+    margin-top: 20px;
     color: #ccc;
 }
 
 .a1 img{
     width: 91%;
-    padding: 4%;
-    cursor: pointer;
 }
 
-.modelo-de-contenido{
-    z-index: auto;
-    display: none;
-    padding-top: 10px;
-    position: fixed;
-    overflow: auto;
-    background-color: #fCf645;
-    background-color: rgba(120, 190, 110, 0.5);
+/*FORMATO DE IMÁGENES - CLOSE*/
+
+#myImg01 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg01:hover {
+  opacity: 0.7;
 }
 
-.modelo {
-    margin: auto;
-    background-color: #CCf645;
-    position: relative;
+#myImg02 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg02:hover {
+  opacity: 0.7;
+}
+
+#myImg03 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg03:hover {
+  opacity: 0.7;
+}
+
+#myImg04 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg04:hover {
+  opacity: 0.7;
+}
+
+#myImg05 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg05:hover {
+  opacity: 0.7;
+}
+
+#myImg06 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg06:hover {
+  opacity: 0.7;
+}
+
+#myImg07 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg07:hover {
+  opacity: 0.7;
+}
+
+#myImg08 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg08:hover {
+  opacity: 0.7;
+}
+
+#myImg09 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg09:hover {
+  opacity: 0.7;
+}
+
+#myImg10 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg10:hover {
+  opacity: 0.7;
+}
+
+#myImg11 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg11:hover {
+  opacity: 0.7;
+}
+
+#myImg12 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+#myImg12:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0);}
+  to {-webkit-transform:scale(1);}
+}
+@keyframes zoom {
+  from {transform: scale(0);}
+  to {transform: scale(1);}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
     width: 100%;
-    height: 100%;
-}
-
-.zoom {
-    transform: scale(0,10);
-}
-
-#img1 {
-    width: 630px;
+  }
 }
 
 .mb-0 {
     margin-bottom: 0px;
 }
-
 .mt-0 {
     margin-top: 0px;
 }
-
 .m-0 {
     margin: 0px;
 }
